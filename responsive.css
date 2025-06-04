@@ -1,0 +1,190 @@
+@media (max-width: 1329px){
+    .booking{
+        width: 90%;
+    }
+    .hotel{
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 360px 360px 360px;
+    }
+    .offer_container{
+         grid-template-columns: 400px 400px;
+    }
+}
+
+
+@media (max-width: 1247px){
+    nav{
+        width: 90%;
+    }
+    nav a{
+        font-size: 20px;
+    }
+     .booking{
+        width: 80%;
+        height: 620px;
+        padding: 0px 30px;
+    }
+    .persons{
+        flex-direction: column;
+        justify-content: baseline;
+    }
+    .booking_btn{
+        justify-content: center;
+    }
+    .footer_nav{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: 955px){
+    .offer_heading{
+        justify-content: center;
+        gap: 15px;
+    }
+    .spacial_heading span{
+         font-size: 20px;
+    }
+    .spacial_heading h1{
+         font-size: 40px;
+    }
+    .spacial_heading p{
+        font-size: 14px;
+    }
+     .offer_container{
+         grid-template-columns: 300px 300px;
+    }
+}
+
+
+@media (max-width: 880px){
+    nav{
+        width: 95%;
+    }
+    nav a{
+        font-size: 18px;
+    }
+      .hotel{
+        background-color: white;
+        grid-template-columns: 500px;
+        grid-template-rows: 360px 360px 360px;
+    }
+      .viewone{
+        grid-row: span 1;
+        display: none;
+    }
+}
+
+
+@media (max-width: 710px){
+    .offer_heading{
+       flex-direction: column;
+    }
+     .offer_container{
+        grid-template-columns: 500px ;
+    }
+}
+
+
+@media (max-width: 615px){
+    .inputs_btn{
+        width: 400px;
+    }
+    .inputs_btn input{
+        font-size: 18px;   
+    }
+    .inputs_btn button{
+        font-size: 18px;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        visibility: visible;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 15px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    header button{
+        border: none;
+        outline: none;
+        background-color: white;
+        font-size: 30px;
+        color: #353535;
+    }
+    header button i{
+        color: #353535;
+    }
+}
+
+
+@media (max-width: 555px){
+    .booking{
+        height: 800px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .person_container{
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .person_inputs{
+        padding: 15px 20px;
+        border-radius: 12px;
+        width: 100%;
+        gap: 0px;
+        justify-content: space-around;
+    }
+    .hotel{
+         grid-template-columns: 400px;
+         padding: 20px;
+    }
+    .offer_container{
+        grid-template-columns: 400px ;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 152px 140px;
+    }
+    .inputs_btn{
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 405px){
+     .hotel{
+         grid-template-columns: 320px;
+         padding: 20px;
+    }
+    .offer_container{
+        grid-template-columns: 320px ;
+    }
+      .inputs_btn{
+        width: 320px;
+        height: 50px;
+    }
+    .inputs_btn input{
+        font-size: 15px;   
+    }
+    .inputs_btn button{
+        font-size: 15px;
+    }
+     .about{
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (max-width: 200px){
+      .hotel{
+         grid-template-columns: 150px;
+    }
+}

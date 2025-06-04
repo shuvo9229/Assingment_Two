@@ -1,0 +1,517 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* nav page design  */
+nav{
+    width: 70%;
+    height: 80px;
+    margin:auto;
+    margin-top: 40px;
+    z-index: 1000;
+    border: 1px solid white;
+    border-radius: 18px;    
+    background-color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    font-weight: 400;
+    font-size: 24px;
+    transition:0.3s;
+}
+
+nav a:nth-child(1){
+    color: #65AEF2;
+}
+
+nav a:hover{
+    color: #2f98fb;
+    font-weight: 500;
+}
+
+
+/* header section design  */
+header{
+    /* display: none; */
+    visibility: hidden;
+}
+
+
+/* hero section page design  */
+.hero{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 658px;
+    background:url(images/Image.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: -1;
+    
+}
+
+.hero_gradient{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,rgb(35, 35, 35)100%);
+    z-index: -1;
+}
+
+.hero_heading{
+    width: 90%;
+    margin:70px auto;
+}
+
+.hero_heading h1{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero_dot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.hero_dot span{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+
+/* book_room page design  */
+.booking{
+    margin: auto;
+    margin-top: 650px;
+    width: 80%;
+    height: 320px;
+    border-radius: 42px;
+    background-color: #E9F3F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.booking_heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking_heading h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.booking_heading p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E5E5E;
+}
+
+.persons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.persone_date{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.date_inputs{
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 12px;
+}
+
+.date_inputs button{
+    border: none;
+    background-color: white;
+}
+
+.date_inputs button i{
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.date_inputs span{
+    font-size: 24px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.person_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    padding:15px 35px;
+    background-color: white;
+    
+}
+
+.person_inputs{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.person_inputs label{
+    font-size: 24px;
+}
+
+.person_inputs label .fa-solid{
+    padding: 0px 20px;
+}
+
+.person_inputs select {
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.booking_btn{
+    display: flex;
+    align-items: flex-end;
+}
+
+.booking_btn button{
+    background-color: #65AEF2;
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s ease-in-out;
+
+}
+
+.booking_btn button:hover{
+    background-color: #0067c7;
+}
+
+.booking_btn button a{
+    font-size: 24px;
+    color: white;
+}
+
+
+/* hotel view page design  */
+.hotel{
+    margin: auto;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 50px 50px;
+    margin-top: 200px;
+    display: grid;
+    justify-content: space-around;
+    gap: 30px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 360px 360px;
+}
+
+.view{
+    border-radius: 30px;
+    position: relative;    
+}
+
+.view img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.viewone{
+   grid-row: span 2;
+}
+
+
+/* offer section page design  */
+.offer{
+    width: 100%;
+    padding: 30px 35px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column; 
+    gap: 60px;
+}
+
+.offer_heading{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.spacial_heading{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: space-around;
+}
+
+.spacial_heading span{
+    font-size: 32px;
+    font-weight: 500;
+    color: #65AEF2;
+}
+
+.spacial_heading h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.spacial_heading p{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.spacial_btn a{
+    color: #65AEF2;
+    background-color: white;
+    font-size: 32px;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
+
+.spacial_btn a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.offer_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 547px;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.cotainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 2px 2px 15px rgba(0, 52, 101, 0.25);
+    transition: box-shadow 0.3s;
+}
+
+.cotainer:hover{
+    box-shadow: 5px 5px 50px rgb(157, 157, 157);
+}
+
+.container_img{
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    height: 288px;
+    margin:0px auto;
+}
+
+.container_img img{
+    position: absolute;
+    width: 100%;
+}
+
+.cotainer span{
+    font-size: 12px;
+    color: #5E5E5E;
+}
+
+.container_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_heading span{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container_heading button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+
+.container_heading button .fa-user{
+    /* font-size: ; */
+    padding-right: 7px;
+}
+
+.cotainer p{
+    font-size: 12px;
+    color: #5E5E5E;
+}
+
+.container_price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.container_price h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.container_price p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+
+/* footer section page design  */
+footer{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 60px 0px 20px 0px;
+    gap: 100px;
+}
+
+.footer_nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_inputs h1{
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+}
+
+.inputs_btn{
+    width: 600px;
+    height: 80px;
+    display: flex;
+}
+
+.inputs_btn input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #D9D9D9;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 12px 0px 0px 12px ;
+}
+
+.inputs_btn button{
+    width: 30%;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #65AEF2;
+    border: none;
+    font-weight: 700;
+    border-radius: 0px 12px 12px 0px ;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.inputs_btn button:hover{
+    background-color: #1e8df5;
+}
+
+.footer_abouts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_abouts img{
+    width: 150px;
+    height: 90px;
+}
+
+.about{
+    display: flex;
+    gap: 100px;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_us a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.about_us a:hover{
+    color: rgb(174, 174, 174);
+}
+
+.footer_heading{
+    border-top: 1px solid #959595;
+    padding: 5px;
+}
+
+.footer_heading p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: black;
+}
